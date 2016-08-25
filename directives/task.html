@@ -1,0 +1,8 @@
+<tr >
+	<td> {{ taskObject.id }} </td>
+	<td ng-class="{'high-priority': taskObject.is_high_priority}"> <a href="#/task/{{ taskObject.id }}">{{ taskObject.name }}</a> </td>
+	<td> <span class="label label-info" ng-repeat="tag in taskObject.tags">{{tag}}</span></td>
+	<td> {{ taskObject.actual_effort }} </td>
+	<td> {{ taskObject.estimated_effort }}</td>
+	<td> {{ taskObject.due_date | date:'medium' }} </td>
+</tr>

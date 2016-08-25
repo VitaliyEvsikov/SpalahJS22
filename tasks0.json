@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "Today_task1",
+    "creation_date": "2016-04-21T06:50:21",
+    "due_date": "2016-04-22T23:59:00",
+    "start_date": "2016-04-21T00:00:01",
+    "is_completed": false,
+    "is_archived": false,
+    "estimated_effort": 5.5,
+    "actual_effort": 3.3,
+    "physical_progress": 60,
+    "obj_status": "active",
+    "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
+    "project_id": 0
+  },
+  {
+    "id": 2,
+    "name": "Completed_task",
+    "creation_date": "2016-05-22T00:00:00",
+    "due_date": "2016-05-26T00:00:00",
+    "start_date": "2016-05-25T00:00:00",
+    "is_completed": true,
+    "is_archived": true,
+    "estimated_effort": 5.0,
+    "actual_effort": 4.0,
+    "physical_progress": 100,
+    "obj_status": "active",
+    "project_id": 6
+  },
+  {
+    "id": 3,
+    "name": "Future_task2",
+    "creation_date": "2016-04-22T06:50:25",
+    "due_date": "2025-05-22T06:50:31",
+    "start_date": "2025-05-18T00:00:00",
+    "is_completed": false,
+    "is_archived": false,
+    "estimated_effort": 5.0,
+    "actual_effort": 0.0,
+    "physical_progress": 0,
+    "obj_status": "active",
+    "project_id": 4
+  },
+  {
+    "id": 4,
+    "name": "Future_milestone",
+    "creation_date": "2016-04-22T06:50:25",
+    "due_date": "2025-07-10T00:00:00",
+    "start_date": "2025-07-10T00:00:00",
+    "is_completed": false,
+    "is_archived": false,
+    "estimated_effort": 0.0,
+    "actual_effort": 0.0,
+    "physical_progress": 0,
+    "obj_status": "active",
+    "project_id": 4,
+    "task_type": "milestone"
+  },
+  {
+    "id": 5,
+    "name": "Task_without_dates",
+    "creation_date": "2016-06-26T06:50:21",
+    "is_completed": false,
+    "is_archived": false,
+    "obj_status": "active",
+    "description": "Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit",
+    "project_id": 0
+  }
+]
+

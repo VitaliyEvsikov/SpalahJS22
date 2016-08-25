@@ -1,0 +1,18 @@
+<table class="table table-striped">
+            <thead>
+            	<th>Id</th>
+                <th>Name</th>
+                <th>Tags</th>
+                <th>Actual Effort</th>
+                <th>Estimated Effort</th>
+                <th>Due Date</th>
+            </thead>
+            <tbody >
+                <!-- <tr> -->
+
+                <tr ng-repeat="task in tasks"  task-object='task' task-element ng-show="task.obj_status == 'active'"></tr>
+
+            
+            </tbody>
+
+</table>
